@@ -1,3 +1,5 @@
+# https://huggingface.co/stepfun-ai/GOT-OCR2_0
+
 from transformers import AutoModel, AutoTokenizer
 
 import torch
@@ -30,6 +32,6 @@ res = model.chat(tokenizer, image_file, ocr_type='ocr')
 # res = model.chat_crop(tokenizer, image_file, ocr_type='format')
 
 # render the formatted OCR results:
-# res = model.chat(tokenizer, image_file, ocr_type='format', render=True, save_render_file = './demo.html')
+# res = model.chat(tok  enizer, image_file, ocr_type='format', render=True, save_render_file = './demo.html')
 
 print(res)
