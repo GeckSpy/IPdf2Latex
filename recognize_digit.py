@@ -96,4 +96,12 @@ def plot_sigmoide():
 model = LogisticRegression(max_iter=200).fit(X_train, y_train)
 print("training score:", model.score(X_train, y_train))
 print("test score:", model.score(X_test, y_test))
+print()
 
+def predict_image(i):
+    d = digits.data[i].reshape(1, -1)
+    print("result:", model.predict(d))
+    plot_image(i)
+
+for i in range(10):
+    predict_image(rd.randint(0, 100))
