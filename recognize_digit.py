@@ -103,5 +103,9 @@ def predict_image(i):
     print("result:", model.predict(d))
     plot_image(i)
 
-for i in range(10):
-    predict_image(rd.randint(0, 100))
+
+def predict_random_images(x):
+    for i in range(x):
+        predict_image(rd.randint(0, 100))
+
+# predict_random_images(10)
