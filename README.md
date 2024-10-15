@@ -1,5 +1,6 @@
 # IPdf2Latex
-IP project: Image/Pdf to latex
+IP project: cogical Image/Pdf to latex
+
 Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTBLzTQLxtHA?fileId=3065936
 
 # Best existing project
