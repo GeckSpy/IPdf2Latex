@@ -9,7 +9,12 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
  - Pix2Tex (https://github.com/lukas-blecher/LaTeX-OCR)
  - image-to-latex (https://github.com/kingyiusuen/image-to-latex)
 
- # TODO
+ # TODO (old project)
  - [X] Listing existing projetcs
  - [X] Highlight possible contributions
+
+ # TODO 
+ - [ ] Listing existing projects
+ - [ ] Highlight exact objectives
+ - [ ] Make 'maquette' for the organisation of the tool
 
