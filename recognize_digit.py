@@ -77,8 +77,8 @@ y_test  = normalize_array(test_labels)
 def test_train_test_assert():
     assert (X_train.shape == train_data.shape)
     assert (y_train.shape == train_labels.shape)
-    assert (X_test.shape == test_data.shape)
-    assert (y_test.shape == test_labels.shape)
+    assert (X_test.shape  == test_data.shape)
+    assert (y_test.shape  == test_labels.shape)
 test_train_test_assert()
 
 

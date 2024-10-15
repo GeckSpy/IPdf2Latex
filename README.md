@@ -6,4 +6,9 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
  - Mathpix (https://mathpix.com/pdf-to-latex): Best tools but not open source
  - Nougat (https://github.com/facebookresearch/nougat)
  - Pix2Tex (https://github.com/lukas-blecher/LaTeX-OCR)
- 
+ - image-to-latex (https://github.com/kingyiusuen/image-to-latex)
+
+ # TODO
+ - [X] Listing existing projetcs
+ - [X] Highlight possible contributions
+
