@@ -4,11 +4,11 @@
 
 ### Basic data
  - [ ] (Macéo) Sklearn digits (splitting dataset cf python notebook on github)
- - [ ] add some variations to images(cf nougat article)
- - [ ] custom datasets using sklearn
+ - [ ] (Macéo) add some variations to images(cf nougat article)
+ - [ ] Analising datasets using sklearn
  - [ ] (Ankit)Transforming images to usable array
  - [ ] (Louison) Using .xls document
- - [ ] Basic use of datatbase (from .txt file or binary file)
+ - [ ] (Macéo) Basic use of datatbase (from .txt file or binary file), usual format, name, organisations
 
 ### Pandas 
  - [ ] Explain dataframes
