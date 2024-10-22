@@ -41,6 +41,8 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
 
 ### Transformers
 
+### Why GPU compute faster than CPU ?
+
 ## Machine Learning in practice :
 
 ### Digit recognition 
