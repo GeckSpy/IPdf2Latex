@@ -6,7 +6,7 @@
  - [ ] (Macéo) Sklearn digits (splitting dataset cf python notebook on github)
  - [ ] add some variations to images(cf nougat article)
  - [ ] custom datasets using sklearn
- - [ ] Transforming images to usable array
+ - [ ] (Ankit)Transforming images to usable array
  - [ ] (Louison) Using .xls document
  - [ ] Basic use of datatbase (from .txt file or binary file)
 
@@ -48,6 +48,6 @@
  - [ ] (Macéo) Digit recognition -> Logistic regression
  - [ ] Encoder / decoder ?
  - [ ] (Louison) How do handle massive data ? (Download millions of arxiv articles and process them for example compute the mean of number of caracters or whatever)
- - [ ] (Louison) Levenshtein distance, Recall , Accuracy, F1, etc(intro to metrics)
+ - [ ] (Ankit) Levenshtein distance, Recall , Accuracy, F1, etc(intro to metrics)
  - [ ] (Louison) How to do predict the complexity of a model depending on the data structure you use, how you read the data, the optimizer, the number of layers of a neural networks...
 
