@@ -39,9 +39,9 @@
 ## Machine Learning theory :
  - [ ] (Macéo) Genetics algorithm
  - [ ] Using existing models from hugging faces (Solving problem for GPU drivers/ GPUless computer)
- - [ ] Why it will not work : Curse of dimensionnality 
- - [ ] Why it will work : symetries of the problem
- - [ ] Neural networks : Universality theorem
+ - [ ] (Louison) Why it will not work : Curse of dimensionnality 
+ - [ ] (Louison) Why it will work : symetries of the problem
+ - [ ] (Louison) Neural networks : Universality theorem
  - [ ] Classifier
  - [ ] Convolutionnal networks
  - [ ] Pitfalls of other models, ex: RNNs
