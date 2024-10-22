@@ -10,7 +10,7 @@
  - [ ] (Louison) Using .xls document
  - [ ] (Macéo) Basic use of datatbase (from .txt file or binary file), usual format, name, organisations
 
-### Pandas 
+### (Mathieu) Pandas 
  - [ ] Explain dataframes
  - [ ] How to read data from csv
  - [ ] How to write data in csv
@@ -28,7 +28,7 @@
 
 
 ## IDK
- - [ ] Pytorch (Tensors, Data loader, Optimizer, Save model): Do better than https://pytorch.org/tutorials/beginner/basics/intro.html
+ - [ ] (*Mathieu) Pytorch (Tensors, Data loader, Optimizer, Save model): Do better than https://pytorch.org/tutorials/beginner/basics/intro.html
 
 
 
