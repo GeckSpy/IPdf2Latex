@@ -13,6 +13,7 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
  - [X] Listing existing projetcs
  - [X] Highlight possible contributions
 
+
  # TODO 
  - [X] Listing existing projects
  - [X] Highlight exact objectives
