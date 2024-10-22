@@ -16,7 +16,7 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
 # Tutorial ideas :
 
 ## Data :
-### Pandas :
+### Pandas 
  - Explain dataframes
  - How to read data from csv
  - How to write data in csv
@@ -25,7 +25,15 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
  - How to deal with missing features
  - How to discover data : main caracteristics
 
-### Data augmentation :
+### Data augmentation
+
+## Machine Learning theory :
+
+### Why it will not work : Curse of dimensionnality 
+
+### 
+
+### Influence of Hyperparameters 
 
 
 
