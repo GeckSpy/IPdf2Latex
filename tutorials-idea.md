@@ -28,11 +28,7 @@
 
 
 ## IDK
- - [ ] Pytorch: Do better than https://pytorch.org/tutorials/beginner/basics/intro.html
- - [ ] Tensors 
- - [ ] Data loader 
- - [ ] Optimizer 
- - [ ] Save model 
+ - [ ] Pytorch (Tensors, Data loader, Optimizer, Save model): Do better than https://pytorch.org/tutorials/beginner/basics/intro.html
 
 
 
