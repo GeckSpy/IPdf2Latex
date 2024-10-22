@@ -47,6 +47,9 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
 
 ### Encoder / decoder ?
 
+### How do handle massive data ? Download thousands of arxiv articles and process them 
+for example compute the mean of number of caracters or whatever
+
  # TODO 
  - [X] Listing existing projects
  - [X] Highlight exact objectives
