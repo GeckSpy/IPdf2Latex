@@ -31,7 +31,9 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
 
 ### Why it will not work : Curse of dimensionnality 
 
-### 
+### Why it will work : symetries of the problem
+
+### Neural networks : Universality theorem
 
 ### Influence of Hyperparameters 
 
