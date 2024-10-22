@@ -1,18 +1,14 @@
 import sklearn as sk
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
-# Import the logistic regression model
 from sklearn.linear_model import LogisticRegression
-
 import random as rd
 import numpy as np
 import matplotlib.pyplot as plt
-plt.rc('font', family='serif', size='18')
+plt.rc('font', family='serif', size='18') # For title policy
 
 digits = datasets.load_digits()
 print(digits.keys())
-
-# police des titres
 
 def show_image(i):
     # plot the i-th image of the database
@@ -47,6 +43,7 @@ def show_errors():
     for i in range(len(test_data)):
         result = model.predict([test_data[i]])[0]
         if result != test_labels[i]:
+            print("model guess", result, "but correct answer was", test_labels[i])
             errors.append(test_labels[i])
 
     arr = np.array(errors)-0.25 # applying -0.25 to each errors so that the histogram his align with the integer
