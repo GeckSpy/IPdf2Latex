@@ -18,7 +18,9 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
  - [X] Listing existing projects
  - [X] Highlight exact objectives
  - [X] Choosing tool -> .ipynb
- - [ ] Reading NOUGAT article
- - [ ] Creating python notebook
+ - [X] Listing tutorial idea
+ - [X] Reading NOUGAT article
+ - [ ] Creating clean python notebook for 12 november
+ - [ ] Finish python notebook
  - [ ] (optional) Finding ways to create nice website with the notebook
  
