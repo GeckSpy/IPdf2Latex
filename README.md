@@ -33,11 +33,19 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
 
 ### Why it will work : symetries of the problem
 
-### Neural networks : Universality theorem
-
 ### Influence of Hyperparameters 
 
+### Neural networks : Universality theorem
 
+### Convolutionnal networks
+
+### Transformers
+
+## Machine Learning in practice :
+
+### Digit recognition 
+
+### Encoder / decoder ?
 
  # TODO 
  - [X] Listing existing projects
