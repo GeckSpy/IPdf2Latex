@@ -7,7 +7,7 @@
  - [ ] add some variations to images(cf nougat article)
  - [ ] custom datasets using sklearn
  - [ ] Transforming images to usable array
- - [ ] Using .xls document
+ - [ ] (Louison) Using .xls document
  - [ ] Basic use of datatbase (from .txt file or binary file)
 
 ### Pandas 
