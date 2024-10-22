@@ -15,8 +15,17 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
 
 # Tutorial ideas :
 
-# Data :
-- Pandas
+## Data :
+- Pandas :
+ - Explain dataframes
+ - How to read data from csv
+ - How to write data in csv
+ - How to use the data
+ - How to visualize data
+ - How to deal with missing features
+ - How to discover data : main caracteristics
+
+
 
  # TODO 
  - [X] Listing existing projects
