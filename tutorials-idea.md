@@ -38,7 +38,7 @@
  - [ ] (Louison) Why it will not work : Curse of dimensionnality 
  - [ ] (Louison) Why it will work : symetries of the problem
  - [ ] (Louison) Neural networks : Universality theorem
- - [ ] Classifier
+ - [ ] (Macéo) Classifier
  - [ ] Convolutionnal networks
  - [ ] Pitfalls of other models, ex: RNNs
  - [ ] Transformers
