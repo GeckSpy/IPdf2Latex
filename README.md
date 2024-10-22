@@ -13,32 +13,6 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
  - [X] Listing existing projetcs
  - [X] Highlight possible contributions
 
-# Tutorial ideas :
-
-## Data :
-### Pandas 
- - Explain dataframes
- - How to read data from csv
- - How to write data in csv
- - How to use the data
- - How to visualize data
- - How to deal with missing features
- - How to discover data : main caracteristics
-
-### Data augmentation
-
-## Machine Learning theory :
-
-### Why it will not work : Curse of dimensionnality 
-
-### Why it will work : symetries of the problem
-
-### Neural networks : Universality theorem
-
-### Influence of Hyperparameters 
-
-
-
  # TODO 
  - [X] Listing existing projects
  - [X] Highlight exact objectives
@@ -46,3 +20,4 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
  - [ ] Reading NOUGAT article
  - [ ] Creating python notebook
  - [ ] (optional) Finding ways to create nice website with the notebook
+ 
