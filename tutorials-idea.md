@@ -3,7 +3,7 @@
 ## Datasets
 
 ### Basic data
- - [ ] Sklearn digits (splitting dataset cf python notebook on github)
+ - [ ] (Macéo) Sklearn digits (splitting dataset cf python notebook on github)
  - [ ] add some variations to images(cf nougat article)
  - [ ] custom datasets using sklearn
  - [ ] Transforming images to usable array
@@ -49,7 +49,7 @@
  - [ ] OCR
  - [ ] Tokens / Tokenizer
  - [ ] Why GPU compute faster than CPU ?
- - [ ] Digit recognition -> Logistic regression
+ - [ ] (Macéo) Digit recognition -> Logistic regression
  - [ ] Encoder / decoder ?
  - [ ] How do handle massive data ? (Download millions of arxiv articles and process them for example compute the mean of number of caracters or whatever)
  - [ ] Levenshtein distance, Recall , Accuracy, F1, etc(intro to metrics)
