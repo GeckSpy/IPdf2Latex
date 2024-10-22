@@ -48,10 +48,10 @@
  - [ ] Transformers
  - [ ] OCR
  - [ ] Tokens / Tokenizer
- - [ ] Why GPU compute faster than CPU ?
+ - [ ] (Louison) Why GPU compute faster than CPU ?
  - [ ] (Macéo) Digit recognition -> Logistic regression
  - [ ] Encoder / decoder ?
- - [ ] How do handle massive data ? (Download millions of arxiv articles and process them for example compute the mean of number of caracters or whatever)
- - [ ] Levenshtein distance, Recall , Accuracy, F1, etc(intro to metrics)
- - [ ] How to do predict the complexity of a model depending on the data structure you use, how you read the data, the optimizer, the number of layers of a neural networks...
+ - [ ] (Louison) How do handle massive data ? (Download millions of arxiv articles and process them for example compute the mean of number of caracters or whatever)
+ - [ ] (Louison) Levenshtein distance, Recall , Accuracy, F1, etc(intro to metrics)
+ - [ ] (Louison) How to do predict the complexity of a model depending on the data structure you use, how you read the data, the optimizer, the number of layers of a neural networks...
 
