@@ -41,3 +41,18 @@ model.fit(train_data, train_labels)
 # Print the score
 print("Training score:", model.score(train_data, train_labels))
 print("Test score:    ", model.score(test_data, test_labels))
+
+def show_errors():
+    errors = []
+    for i in range(len(test_data)):
+        result = model.predict([test_data[i]])[0]
+        if result != test_labels[i]:
+            errors.append(test_labels[i])
+
+    arr = np.array(errors)-0.25 # applying -0.25 to each errors so that the histogram his align with the integer
+    plt.hist(arr, color='orange', edgecolor='black') # Create histogram bars
+    plt.xticks(range(10)) # ploting every interger in x axis
+    plt.xlabel("digits")
+    plt.ylabel("number of errors")
+    plt.show()
+
