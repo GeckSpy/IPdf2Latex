@@ -3,12 +3,12 @@
 ## Datasets
 
 ### Basic data
- - [ ] (Macéo) Sklearn digits (splitting dataset cf python notebook on github)
+ - [ ] *(Macéo) Sklearn digits (splitting dataset cf python notebook on github)
  - [ ] (Macéo) add some variations to images(cf nougat article)
  - [ ] (Ankit) Analising datasets using sklearn
  - [ ] (Ankit)Transforming images to usable array
  - [ ] (Louison) Using .xls document
- - [ ] (Macéo) Basic use of datatbase (from .txt file or binary file), usual format, name, organisations
+ - [ ] *(Macéo) Basic use of datatbase (from .txt file or binary file), usual format, name, organisations
 
 ### (Mathieu) Pandas 
  - [ ] Explain dataframes
