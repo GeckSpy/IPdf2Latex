@@ -3,7 +3,7 @@
 ## Datasets
 
 ### Basic data
- - [ ] *(Macéo) Sklearn digits (splitting dataset cf python notebook on github)
+ - [X] *(Macéo) Sklearn digits (splitting dataset cf python notebook on github)
  - [ ] (Macéo) add some variations to images(cf nougat article)
  - [ ] (Ankit) Analising datasets using sklearn
  - [ ] (Ankit)Transforming images to usable array
