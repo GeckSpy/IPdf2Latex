@@ -8,7 +8,7 @@
  - [ ] (Ankit) Analising datasets using sklearn
  - [ ] (Ankit)Transforming images to usable array
  - [ ] (Louison) Using .xls document
- - [ ] *(Macéo) Basic use of datatbase (from .txt file or binary file), usual format, name, organisations
+ - [X] *(Macéo) Basic use of datatbase (from .txt file or binary file), usual format, name, organisations
 
 ### (Mathieu) Pandas 
  - [ ] Explain dataframes
