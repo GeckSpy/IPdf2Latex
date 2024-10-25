@@ -1,0 +1,4 @@
+Pierre;Dupont;32;France;Paris;computer science;
+Peter;Parker;18;US;Brooklin;math;
+Steve;Rogers;145;US;Quince;history;
+Paul;Wagner;14;France;Lyon;computer science;
