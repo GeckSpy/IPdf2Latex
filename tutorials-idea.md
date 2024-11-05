@@ -35,19 +35,19 @@
 ## Machine Learning theory :
  - [ ] (Macéo) Genetics algorithm
  - [ ] Using existing models from hugging faces (Solving problem for GPU drivers/ GPUless computer)
- - [ ] (Louison) Why it will not work : Curse of dimensionnality 
- - [ ] (Louison) Why it will work : symetries of the problem
- - [ ] (Louison) Neural networks : Universality theorem
+ - [x] (Louison) Why it will not work : Curse of dimensionnality 
+ - [x] (Louison) Why it will work : symetries of the problem
+ - [x] (Louison) Neural networks : Universality theorem
  - [ ] (Macéo) Classifier
  - [ ] Convolutionnal networks
  - [ ] Pitfalls of other models, ex: RNNs
  - [ ] Transformers
  - [ ] OCR
  - [ ] Tokens / Tokenizer
- - [ ] (Louison) Why GPU compute faster than CPU ?
+ - [x] (Louison) Why GPU compute faster than CPU ?
  - [ ] (Macéo) Digit recognition -> Logistic regression
  - [ ] Encoder / decoder ?
- - [ ] (Louison) How do handle massive data ? (Download millions of arxiv articles and process them for example compute the mean of number of caracters or whatever)
+ - [x] (Louison) How do handle massive data ? (Download millions of arxiv articles and process them for example compute the mean of number of caracters or whatever)
  - [ ] *(Ankit) Levenshtein distance, Recall , Accuracy, F1, etc(intro to metrics)
- - [ ] (Louison) How to do predict the complexity of a model depending on the data structure you use, how you read the data, the optimizer, the number of layers of a neural networks...
+ - [x] (Louison) How to do predict the complexity of a model depending on the data structure you use, how you read the data, the optimizer, the number of layers of a neural networks...
 
