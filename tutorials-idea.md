@@ -19,7 +19,7 @@
  - [ ] How to discover data : main caracteristics
 
 ### More advanced use of data
- - [ ] (Macéo) add some variations to images(cf nougat article)
+ - [X] (Macéo) add some variations to images(cf nougat article)
  - [ ] What is JSON files and how to use them 
  - [ ] Download and use data from huggin face
  - [ ] What are the convention to organize a projet in datascience in order to have juste a clean project, the goal is not to have the best commented and tested project (how to separate files, between training, evaluation and how to name files : what name for saved model)
