@@ -24,11 +24,11 @@ class GeneticAlgo():
         """Return a population"""
         return [self.gen_sol() for _ in range(self.len_pop)]
     
-    def cross_over(self, x:Solution, y:Solution) -> list[Solution]:
+    def cross_over(self, x:Solution, y:Solution) -> Solution:
         """Return the cross-overs between x and y"""
         pass
 
-    def mutate(self, x:Solution) -> list[Solution]:
+    def mutate(self, x:Solution) -> Solution:
         """Return the mutations of x"""
         pass
 
@@ -51,20 +51,18 @@ class GeneticAlgo():
         K = int( (1 + math.sqrt(1 + 8*b*self.len_pop)) / 2 )
         for i in range(K):
             for j in range(i+1, K):
-                for sol in self.cross_over(pop[i], pop[j]):
-                    new_pop.append(sol)
+                new_pop.append(self.cross_over(pop[i], pop[j]))
 
         for i in range(int(self.len_pop*c)):
-            for sol in self.mutate(pop[i]):
-                new_pop.append(sol)
+            new_pop.append(self.mutate(pop[i]))
 
         while(len(new_pop) < self.len_pop):
             new_pop.append(self.gen_sol())
 
         return new_pop
     
-    def algo(self, a=0.3, b=0.3, c= 0.2, gen=1, msg=""):
-        """Compute the genetic algorithm and return last population.
+    def algo(self, a=0.3, b=0.3, c= 0.2, gen=1, msg="") -> list[list[Solution]]:
+        """Compute the genetic algorithm and return last population and the list of best solution at each step.
 
             a is the proportion of kept solutions.
 
@@ -74,10 +72,12 @@ class GeneticAlgo():
 
             gen is the number of generation of which you want to display the message "actual_generation msg"
         """
+        best_of_each_gen = []
         pop = self.gen_pop()
         for actual_gen in range(self.nb_gen):
             self.sort_pop(pop)
             pop = self.next_pop(pop, a, b, c)
+            best_of_each_gen.append(pop[0])
             if actual_gen % gen == 0:
                 print(actual_gen, msg, end="")
-        return pop
+        return [pop, best_of_each_gen]
