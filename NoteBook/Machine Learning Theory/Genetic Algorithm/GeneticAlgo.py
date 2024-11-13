@@ -78,6 +78,6 @@ class GeneticAlgo():
             self.sort_pop(pop)
             pop = self.next_pop(pop, a, b, c)
             best_of_each_gen.append(pop[0])
-            if actual_gen % gen == 0:
+            if (actual_gen+1) % gen == 0:
                 print(actual_gen, msg, end="")
         return [pop, best_of_each_gen]
