@@ -27,13 +27,15 @@
 
 
 
-## IDK
+## Pytorch tutorial
  - [ ] (*Mathieu) Pytorch (Tensors, Data loader, Optimizer, Save model): Do better than https://pytorch.org/tutorials/beginner/basics/intro.html
 
 
 
 ## Machine Learning theory :
- - [ ] (Macéo) Genetics algorithm
+ - [X] (Macéo) Genetics algorithm
+ - [ ] (Macéo) MOGA
+ - [ ] (Macéo) module Neat
  - [ ] Using existing models from hugging faces (Solving problem for GPU drivers/ GPUless computer)
  - [x] (Louison) Why it will not work : Curse of dimensionnality 
  - [x] (Louison) Why it will work : symetries of the problem
