@@ -28,3 +28,9 @@ torch.asarray dans la même veine semble essayer de ne pas copier
 - Function : explanation + example 
 
 - separate sol from exercices
+
+# Q ?
+
+what is : UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor)
+
+tensor contraction 
