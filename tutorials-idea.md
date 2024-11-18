@@ -5,7 +5,7 @@
 ### Basic data
  - [X] (Macéo) Sklearn digits (splitting dataset)
  - [ ] (Ankit) Analising datasets using sklearn
- - [ ] (Ankit)Transforming images to usable array
+ - [X] (Ankit)Transforming images to usable array
  - [ ] (Louison) Using .xls document
  - [X] (Macéo) Basic use of datatbase (from .txt file), usual format, name, organisations
 
@@ -53,6 +53,6 @@
  - [ ] (Macéo) Digit recognition -> Logistic regression
  - [ ] Encoder / decoder ?
  - [x] (Louison) How do handle massive data ? (Download millions of arxiv articles and process them for example compute the mean of number of caracters or whatever)
- - [ ] *(Ankit) Levenshtein distance, Recall , Accuracy, F1, etc(intro to metrics)+ TP on NLTK to compare and use these metrics
+ - [X] *(Ankit) Levenshtein distance, Recall , Accuracy, F1, etc(intro to metrics)+ TP on NLTK to compare and use these metrics
  - [x] (Louison) How to do predict the complexity of a model depending on the data structure you use, how you read the data, the optimizer, the number of layers of a neural networks...
 
