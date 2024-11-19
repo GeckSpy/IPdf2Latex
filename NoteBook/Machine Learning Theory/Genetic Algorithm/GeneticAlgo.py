@@ -1,5 +1,4 @@
 import math
-import matplotlib.pyplot as plt
 
 class Solution():
     def __init__(self, sol=None, score=None):
@@ -12,19 +11,6 @@ class GeneticAlgo():
         """
         self.nb_gen = nb_gen
         self.len_pop = len_pop
-        self.best_for_each_gen = []
-
-    def plot_best_each_gen(self, show=True):
-        """Plot best solution at each generation"""
-        liste_x = [gen for gen in range(self.nb_gen)]
-        liste_y = [sol.score for sol in self.best_for_each_gen]
-        plt.plot(liste_x, liste_y, 'o')
-        if show:
-            plt.show()
-
-    def fct_during_gen(self, actual_gen, actual_pop):
-        """The function called at each generation"""
-        print(actual_gen, gen=" ")
 
     def score(self, x:Solution):
         """Calculate score of solution as solution"""
@@ -75,7 +61,7 @@ class GeneticAlgo():
 
         return new_pop
     
-    def algo(self, a=0.3, b=0.3, c= 0.2, gen=1) -> list[Solution]:
+    def algo(self, a=0.3, b=0.3, c= 0.2, gen=1, msg="") -> list[list[Solution]]:
         """Compute the genetic algorithm and return last population and the list of best solution at each step.
 
             a is the proportion of kept solutions.
@@ -86,13 +72,12 @@ class GeneticAlgo():
 
             gen is the number of generation of which you want to display the message "actual_generation msg"
         """
-        self.best_for_each_gen = []
+        best_of_each_gen = []
         pop = self.gen_pop()
         for actual_gen in range(self.nb_gen):
             self.sort_pop(pop)
             pop = self.next_pop(pop, a, b, c)
-            self.best_for_each_gen.append(pop[0])
+            best_of_each_gen.append(pop[0])
             if (actual_gen+1) % gen == 0:
-        
-        return pop
-    
+                print(actual_gen, msg, end="")
+        return [pop, best_of_each_gen]
