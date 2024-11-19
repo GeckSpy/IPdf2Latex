@@ -1,4 +1,5 @@
 import math
+import matplotlib.pyplot as plt
 
 class Solution():
     def __init__(self, sol=None, score=None):
@@ -11,6 +12,16 @@ class GeneticAlgo():
         """
         self.nb_gen = nb_gen
         self.len_pop = len_pop
+        self.best_of_each_gen: list[Solution] = []
+
+    def plot_best_each_gen(self, show=True):
+        liste_x = [i for i in range(self.nb_gen)]
+        liste_y = [sol.score for sol in self.best_of_each_gen]
+        plt.plot(liste_x, liste_y, 'o')
+        plt.xlabel("generations")
+        plt.ylabel("score of best solutions")
+        if show:
+            plt.show()
 
     def score(self, x:Solution):
         """Calculate score of solution as solution"""
@@ -61,7 +72,10 @@ class GeneticAlgo():
 
         return new_pop
     
-    def algo(self, a=0.3, b=0.3, c= 0.2, gen=1, msg="") -> list[list[Solution]]:
+    def fct_during_gen(self, actual_gen, actual_pop):
+        print(actual_gen, end=" ")
+    
+    def algo(self, a=0.3, b=0.3, c= 0.2, gen=1) -> list[list[Solution]]:
         """Compute the genetic algorithm and return last population and the list of best solution at each step.
 
             a is the proportion of kept solutions.
@@ -70,14 +84,15 @@ class GeneticAlgo():
 
             c is the proportion of mutation.
 
-            gen is the number of generation of which you want to display the message "actual_generation msg"
+            gen is the number of generation of which you want to compute function self.fct_during_gen
         """
-        best_of_each_gen = []
+
+        self.best_of_each_gen = []
         pop = self.gen_pop()
         for actual_gen in range(self.nb_gen):
             self.sort_pop(pop)
             pop = self.next_pop(pop, a, b, c)
-            best_of_each_gen.append(pop[0])
+            self.best_of_each_gen.append(pop[0])
             if (actual_gen+1) % gen == 0:
-                print(actual_gen, msg, end="")
-        return [pop, best_of_each_gen]
+                self.fct_during_gen(actual_gen, pop)
+        return pop
