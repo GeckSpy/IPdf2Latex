@@ -19,6 +19,8 @@ class GeneticAlgo():
         liste_x = [gen for gen in range(self.nb_gen)]
         liste_y = [sol.score for sol in self.best_for_each_gen]
         plt.plot(liste_x, liste_y, 'o')
+        plt.xlabel("generations")
+        plt.ylabel("score of best solution")
         if show:
             plt.show()
 
