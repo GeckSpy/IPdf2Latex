@@ -24,7 +24,7 @@ class GeneticAlgo():
 
     def fct_during_gen(self, actual_gen, actual_pop):
         """The function called at each generation"""
-        print(actual_gen, gen=" ")
+        print(actual_gen, end=" ")
 
     def score(self, x:Solution):
         """Calculate score of solution as solution"""
