@@ -1,4 +1,0 @@
-Quantum Computer Science
-Compilations and Programs Analisys
-Programmation
-Algorithms
