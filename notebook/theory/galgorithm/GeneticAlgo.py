@@ -93,6 +93,6 @@ class GeneticAlgo():
             pop = self.next_pop(pop, a, b, c)
             self.best_for_each_gen.append(pop[0])
             if (actual_gen+1) % gen == 0:
-        
+                self.fct_during_gen(actual_gen, pop)
         return pop
     
