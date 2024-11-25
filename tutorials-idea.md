@@ -37,8 +37,8 @@
  - [ ] (Macéo) MOGA
  - [ ] (Macéo) module Neat
  - [ ] (Macéo) Gymnasium module
- - [ ] ~~Q-learning~~  (not valited by François)
- - [ ] ~~Deep Q-learning~~ (not valited by François)
+ - [ ] ~~Q-learning~~  (not validated by François)
+ - [ ] ~~Deep Q-learning~~ (not validated by François)
  - [ ] Using existing models from hugging faces (Solving problem for GPU drivers/ GPUless computer)
  - [x] (Louison) Why it will not work : Curse of dimensionnality 
  - [x] (Louison) Why it will work : symetries of the problem
