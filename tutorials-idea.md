@@ -47,7 +47,7 @@
  - [ ] Convolutionnal networks
  - [ ] Pitfalls of other models, ex: RNNs
  - [ ] /!\ Transformers
- - [ ] /!\ OCR
+ - [ ] /!\(Ankit)OCR
  - [ ] Tokens / Tokenizer
  - [x] (Louison) Why GPU compute faster than CPU ?
  - [ ] (Macéo) Digit recognition -> Logistic regression
