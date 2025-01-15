@@ -21,7 +21,7 @@
 ### More advanced use of data
  - [X] (Macéo) add some variations to images(cf nougat article)
  - [ ] What is JSON files and how to use them 
- - [ ] Download and use data from huggin face
+ - [ ] /!\ (Macéo) Download and use data from huggin face
  - [ ] What are the convention to organize a projet in datascience in order to have juste a clean project, the goal is not to have the best commented and tested project (how to separate files, between training, evaluation and how to name files : what name for saved model)
  - [ ] (Louison) Data augmentation
 
@@ -37,17 +37,17 @@
  - [ ] (Macéo) MOGA
  - [ ] (Macéo) module Neat
  - [ ] (Macéo) Gymnasium module
- - [ ] Q-learning
- - [ ] Deep Q-learning
- - [ ] Using existing models from hugging faces (Solving problem for GPU drivers/ GPUless computer)
+ - [ ] ~~Q-learning~~  (not validated by François)
+ - [ ] ~~Deep Q-learning~~ (not validated by François)
+ - [ ] *Using existing models from hugging faces (Solving problem for GPU drivers/ GPUless computer)
  - [x] (Louison) Why it will not work : Curse of dimensionnality 
  - [x] (Louison) Why it will work : symetries of the problem
  - [x] (Louison) Neural networks : Universality theorem
  - [ ] (Macéo) Classifier
  - [ ] Convolutionnal networks
  - [ ] Pitfalls of other models, ex: RNNs
- - [ ] Transformers
- - [ ] OCR
+ - [ ] /!\ (Louison) Transformers
+ - [ ] /!\ (Ankit) OCR
  - [ ] Tokens / Tokenizer
  - [x] (Louison) Why GPU compute faster than CPU ?
  - [ ] (Macéo) Digit recognition -> Logistic regression
