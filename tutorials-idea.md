@@ -48,10 +48,10 @@
  - [ ] Pitfalls of other models, ex: RNNs
  - [ ] /!\ (Louison) Transformers
  - [ ] /!\ (Ankit) OCR
- - [ ] Tokens / Tokenizer
+ - [ ] /!\ (Mathieu) Tokens / Tokenizer
  - [x] (Louison) Why GPU compute faster than CPU ?
  - [ ] (Macéo) Digit recognition -> Logistic regression
- - [ ] Encoder / decoder ?
+ - [ ] /!\ Encoder / decoder ?
  - [x] (Louison) How do handle massive data ? (Download millions of arxiv articles and process them for example compute the mean of number of caracters or whatever)
  - [X] *(Ankit) Levenshtein distance, Recall , Accuracy, F1, etc(intro to metrics)+ TP on NLTK to compare and use these metrics
  - [x] (Louison) How to do predict the complexity of a model depending on the data structure you use, how you read the data, the optimizer, the number of layers of a neural networks...
