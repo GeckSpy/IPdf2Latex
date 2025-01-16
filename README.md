@@ -1,4 +1,7 @@
 # IPdf2Latex
+
+see https://cs231n.stanford.edu/reports/2017/pdfs/815.pdf for existing project 
+
 IP project: Pedacogical Image/Pdf to latex
 
 Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTBLzTQLxtHA?fileId=3065936
