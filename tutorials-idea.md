@@ -44,7 +44,7 @@
  - [x] (Louison) Why it will work : symetries of the problem
  - [x] (Louison) Neural networks : Universality theorem
  - [ ] (Macéo) Classifier
- - [ ] Convolutionnal networks
+ - [ ] /!\ (Macéo) Convolutionnal networks
  - [ ] Pitfalls of other models, ex: RNNs
  - [ ] /!\ (Louison) Transformers
  - [ ] /!\ (Ankit) OCR
