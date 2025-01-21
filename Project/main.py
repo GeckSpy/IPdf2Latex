@@ -21,11 +21,9 @@ ds = load_dataset("OleehyO/latex-formulas", "cleaned_formulas")
 
 train_val_split = ds["train"].train_test_split(test_size=0.2, seed=42)
 train_ds = train_val_split["train"]
-test_ds = train_val_split["test"]
-
 val_test_split = train_val_split["test"].train_test_split(test_size=0.5, seed=42)
 val_ds = val_test_split["train"]
-train_ds = val_test_split["test"]
+test_ds = val_test_split["test"]
 
 print(train_ds)
 print(val_ds)
@@ -34,7 +32,7 @@ print(test_ds)
 # preprocess an image
 row = 3
 img = train_ds[row]["image"]
-img = preprocess_image(img, do_unblur=False)
+img = preprocess_image(img, do_unblur=True)
 plot_img(img, True)
 
 print(train_ds[row]["latex_formula"])
