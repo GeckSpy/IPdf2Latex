@@ -34,7 +34,7 @@ print(test_ds)
 # preprocess an image
 row = 3
 img = train_ds[row]["image"]
-img = preprocess_image(img)
+img = preprocess_image(img, do_unblur=False)
 plot_img(img, True)
 
 print(train_ds[row]["latex_formula"])

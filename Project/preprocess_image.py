@@ -66,10 +66,11 @@ def img_to_array(img):
     arr = np.array(img)
     return arr
 
-def preprocess_image(img, unblur_size=15, crop_size=2):
+def preprocess_image(img, do_unblur=True, unblur_size=15, crop_size=2):
      # preprocess an image from an image (from an hugging face dataset for example)
      arr = img_to_array(img)
-     arr = unblur_rgb_arr(arr, size=unblur_size)
+     if do_unblur:
+        arr = unblur_rgb_arr(arr, size=unblur_size)
      #img = cv2.cvtColor(arr, cv2.COLOR_BGR2RGB)
      #img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
      arr = grey_level(arr)
