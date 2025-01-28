@@ -2,7 +2,7 @@ import numpy as np
 
 
 def grey_level(arr):
-    return ((arr[:,:,0] + arr[:,:,1] + arr[:,:,2])/3).astype(int)
+    return (arr[:,:,0] + arr[:,:,1] + arr[:,:,2])/3
 
 def crop(arr, k=2):
     # Crop an image
