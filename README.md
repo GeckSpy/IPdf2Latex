@@ -2,9 +2,7 @@
 
 Website: https://tutorial-ia-pe.readthedocs.io/
 
-see https://cs231n.stanford.edu/reports/2017/pdfs/815.pdf for existing project 
-
-IP project: Pedacogical Image/Pdf to latex
+IP project: Pedacogical notebook to create AI model converting images of mathematical formula to equivalent latex code.
 
 Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTBLzTQLxtHA?fileId=3065936
 
@@ -19,7 +17,7 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
  - [X] Highlight possible contributions
  - [X] Finding datasests 
  - [X] Preprocessing images
- - [ ] Finetune Encoder/decoder model
+ - [X] Finetune Encoder/decoder model
  - [ ] Train and evaluate function
  - [ ] Test it
 
@@ -30,13 +28,13 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
  - [X] Reading NOUGAT article
  - [X] Listing tutorial ideas
  - [X] Creating clean python notebook for 12 november
- - [ ] Focus notebook creation on the project (Torch, Encoder/Decoder, Tokenizers, BLUE metric, train/evaluate function, datasets, python GPU paralelization)
+ - [ ] Focus notebook creation on the project (Torch, Encoder/Decoder, Tokenizers, train/evaluate function, python GPU paralelization)
  - [ ] Finish and enhance existing python notebook (English mistake, goodd looking notebooks, ...)
  - [ ] (optional) Finding ways to create nice website with the notebook
 
 # TODO presentation
- - [ ] Modify notebook for better logic according to project
- - [ ] Clean up notebooks
+ - [X] Modify notebook for better logic according to project
+ - [ ] Clean up notebooks /!\
  - [ ] Create test example for project
  - [ ] Create powerpoint
  - [ ] Clean up github
