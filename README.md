@@ -18,7 +18,7 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
  - [X] Finding datasests 
  - [X] Preprocessing images
  - [X] Finetune Encoder/decoder model
- - [ ] Train and evaluate function
+ - [X] Train and evaluate function
  - [ ] Test it
 
  # TODO websites
@@ -28,7 +28,7 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
  - [X] Reading NOUGAT article
  - [X] Listing tutorial ideas
  - [X] Creating clean python notebook for 12 november
- - [ ] Focus notebook creation on the project (Torch, Encoder/Decoder, Tokenizers, train/evaluate function, python GPU paralelization)
+ - [X] Focus notebook creation on the project (Torch, Encoder/Decoder, Tokenizers, train/evaluate function, python GPU paralelization)
  - [ ] Finish and enhance existing python notebook (English mistake, goodd looking notebooks, ...)
  - [ ] (optional) Finding ways to create nice website with the notebook
 
