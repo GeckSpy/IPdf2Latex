@@ -9,7 +9,7 @@ Converting a entire Pdf or a simple mathematical formula to its equivalent LaTex
  - Mathpix (https://mathpix.com/pdf-to-latex): Best existing tool but not open source.
  - Nougat (https://github.com/facebookresearch/nougat): Try to convert full Pdf.
  - Pix2Tex (https://github.com/lukas-blecher/LaTeX-OCR): Focused on one ligne mathematical formula.
- - image-to-latex (https://github.com/kingyiusuen/image-to-latex)
+ - img2latex (https://github.com/kingyiusuen/image-to-latex)
 
 
 # Datasets
@@ -34,7 +34,10 @@ associated with there equivalent Latex code
 # Model
 
 There are various model that you can deside to use to make you AI model, but we have decided to finetune an Encoder/Decoder model.
-
+<p style="text-align:center;">
+    <img src="assets/model.png" />
+    (Image took from im2latex project)
+</p>
 
 # Information
 

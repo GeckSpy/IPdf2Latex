@@ -9,7 +9,7 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
  - [X] Preprocessing images
  - [X] Finetune Encoder/decoder model
  - [X] Train and evaluate function
- - [ ] Test it
+ - [X] Test it
 
  # TODO websites
  - [X] Listing existing projects
@@ -25,12 +25,12 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
 # TODO presentation
  - [X] Modify notebook for better logic according to project
  - [ ] Clean up notebooks /!\
- - [ ] Create test example for project
- - [ ] Create powerpoint
+ - [ ] (Mathieu) Create test examples for project
+ - [ ] (Macéo) Create powerpoint
  - [X] Clean up github
- - [ ] Make good README
+ - [ ] Finish making good README
  - [ ] Create and divide oral presentation
  - [ ] Train oral presentation
- - [ ] Change website name
+ - [ ] (Louison) Change website name
  - [ ] fill CONTRIBUTING.md
  
