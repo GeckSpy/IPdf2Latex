@@ -35,7 +35,7 @@ associated with there equivalent Latex code
 
 # Theory
 
-To make you learn the theory behind those kind of project, we have decided to focus our work on some notebooks which are:
+To help you understand the theory behind these types of projects, we have focused our work on several key notebooks, which include:
  - [**`Genetic Algorithms`**](./notebook/theory/Genetic_algorithm.ipynb) - Explains for what genetic algorithms are made, what are they, how to use it and provide usable Python class.
 
 
