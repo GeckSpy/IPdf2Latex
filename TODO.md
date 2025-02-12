@@ -32,4 +32,5 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
  - [ ] Create and divide oral presentation
  - [ ] Train oral presentation
  - [ ] Change website name
+ - [ ] fill CONTRIBUTING.md
  
