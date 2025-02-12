@@ -28,6 +28,7 @@ Nextcloud link: https://nextcloud.ens-lyon.fr/index.php/apps/onlyoffice/s/aricTB
  - [ ] (Mathieu) Create test examples for project
  - [ ] (Macéo) Create powerpoint
  - [X] Clean up github
+ - [ ] Add your notebooks and small explanations to the README
  - [ ] Finish making good README
  - [ ] Create and divide oral presentation
  - [ ] Train oral presentation
