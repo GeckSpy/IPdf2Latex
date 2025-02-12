@@ -17,9 +17,25 @@ Converting a entire Pdf or a simple mathematical formula to its equivalent LaTex
 The first part of a project of making such a model is to use a complete dataset by loading an existing one or creating your own and then manipulate it. For that we have created 4 notebooks to make you learn everything you need to know about datasets:
  - `Basics` teach you the very basic stuff about dealing with basic datasets.
  - `Images` teach you how to deal with images in Python and provide you usefull function for your future projects.
- - `
-Then you will be able to have access to a large quantity
+ - `Loading` teach you how to load an existing database from huggingface or with `sklearn`.
+ - `Building` teach you how you can build your own dataset compose of images and text.
+
+Then you will be able to have access to a large quantity of images like
+<p style="text-align:center;">
+    <img src="assets/formula1.png" />
+</p>
+
+associated with there equivalent Latex code
+<p style="text-align:center;">
+\begin{align*} L_{\vec{X}} \phi (\vec{X}) = \mbox{Tr}[J] \phi (\vec{X}) + P (\vec{V} \cdot \vec{\gamma})\end{align*}
+</p>
+
 
 # Model
 
+There are various model that you can deside to use to make you AI model, but we have decided to finetune an Encoder/Decoder model.
+
+
 # Information
+
+Do not hesitate to contect us nor o contribute to our project - see CONTRIBUTING.md
