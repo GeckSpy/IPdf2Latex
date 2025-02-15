@@ -41,7 +41,9 @@ To help you understand the theory behind these types of projects, we have focuse
 
 # Model
 
-There are various models you can choose from to develop your AI system, but we have decided to fine-tune an Encoder/Decoder model.
+To solve the Image-to-Formula task, we use the Vision Encoder-Decoder architecture. We use [Swin](https://huggingface.co/docs/transformers/en/model_doc/swin) as a vision encoder and [GPT-2](https://huggingface.co/openai-community/gpt2) as a text decoder. We fine-tuned 600K parameters linking the encoder and decoder to adapt the pretrained model to our task. 
+In our notebook, we detail how we tried to reproduce the results of the research paper [*Image-to-LaTeX Converter for Mathematical Formulas and Text*](https://arxiv.org/abs/2408.04015).
+
 
 Main notebook : [**`Model `**](./notebook/Project/finetuning%20a%20vision%20encoder%20decoder.ipynb)
 
