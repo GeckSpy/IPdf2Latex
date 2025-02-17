@@ -37,6 +37,11 @@ associated with there equivalent Latex code
 
 To help you understand the theory behind these types of projects, we have focused our work on several key notebooks, which include:
  - [**`Genetic Algorithms`**](./notebook/theory/Genetic_algorithm.ipynb) - Explains for what genetic algorithms are made, what are they, how to use it and provide usable Python class.
+ - [**`Logistic Regression`**](./notebook/theory/Logistic_regression.ipynb) - Explains how to use logistic regression with Sklearn (/!\ Not finished yet)
+ - [**`Autograd`**](./notebook/theory/autograd.ipynb) - Introduction to `torch.autograd` function.
+ - [**`Metrics`**](./notebook/theory/metrics.ipynb) - Introduction to few key NLP metrics.
+ - [**`Tensor`**](./notebook/theory/tensor.ipynb)  -  Introduction to Tensors using `torch`.
+ - [**`Transformes`**](./notebook/theory/transformers/) - Introduction to the transformer model.
 
 
 # Model
